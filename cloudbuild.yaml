@@ -5,7 +5,8 @@ steps:
   - name: 'gcr.io/cloud-builders/npm:node-8.9.3'
     args: ['run', 'build_sit', '--', '--deploy-url=$_DEPLOY_URL']
     id: build
-  - name: 'gcr.io/fintend-cloud/update-nginx-resource:v1.0.3'
+  - name: 'gcr.io/cloud-builders/kubectl'
+    args:
     - set
     - image
     - deployment
