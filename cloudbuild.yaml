@@ -16,7 +16,7 @@ steps:
     - 'CLOUDSDK_COMPUTE_ZONE=asia-southeast1-a'
     - 'CLOUDSDK_CONTAINER_CLUSTER=fintend-coinpool-sit'
     id: deploy-k8s
-image:
+images:
   - 'gcr.io/$PROJECT_ID/ethex-frontend:$COMMIT_SHA'
 timeout: '3600s'
 substitutions:
