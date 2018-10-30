@@ -7,7 +7,6 @@ steps:
     id: build
   - name: 'gcr.io/fintend-cloud/update-nginx-resource:v1.0.3'
     id: deploy_nginx_resource
-
     - set
     - image
     - deployment
@@ -25,7 +24,3 @@ substitutions:
   _DEPLOY_URL: ""
 options:
   machineType: 'N1_HIGHCPU_8'
-
-
-
-
