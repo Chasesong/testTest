@@ -3,7 +3,7 @@ steps:
     args: ['install']
     id: step1
   - name: 'gcr.io/cloud-builders/npm:node-8.9.3'
-    args: ['run', 'build_sit', '--', '--deploy-url=$_DEPLOY_URL']
+    args: ['run', 'build', '--', '--deploy-url=$_DEPLOY_URL']
     id: build
   - name: 'gcr.io/cloud-builders/kubectl'
     args:
