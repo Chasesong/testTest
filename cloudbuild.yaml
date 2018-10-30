@@ -6,7 +6,6 @@ steps:
     args: ['run', 'build_sit', '--', '--deploy-url=$_DEPLOY_URL']
     id: build
   - name: 'gcr.io/fintend-cloud/update-nginx-resource:v1.0.3'
-    id: deploy_nginx_resource
     - set
     - image
     - deployment
