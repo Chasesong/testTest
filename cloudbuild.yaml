@@ -14,7 +14,7 @@ steps:
     - hello-app=gcr.io/$PROJECT_ID/ethex-frontend:$COMMIT_SHA
     env:
     - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=us-central1-a'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=chase-k8s-cluster	'
     id: deploy-k8s
 images:
   - 'gcr.io/$PROJECT_ID/ethex-frontend:$COMMIT_SHA'
