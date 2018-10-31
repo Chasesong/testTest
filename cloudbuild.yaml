@@ -13,8 +13,8 @@ steps:
     - ethex-frontend
     - ethex-frontend=gcr.io/$PROJECT_ID/ethex-frontend:$COMMIT_SHA
     env:
-    - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=us-central1-a'
+    - 'CLOUDSDK_COMPUTE_ZONE=smooth-concept-219903'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=smooth-concept-219903'
     id: deploy-k8s
 images:
   - 'gcr.io/$PROJECT_ID/ethex-frontend:$COMMIT_SHA'
