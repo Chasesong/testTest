@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c718309-1971-4500-8f5b-c23c563ca649" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="8c718309-1971-4500-8f5b-c23c563ca649" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -370,16 +368,15 @@
       <workItem from="1539935808965" duration="2445000" />
       <workItem from="1540289531399" duration="438000" />
       <workItem from="1540903551125" duration="9481000" />
-      <workItem from="1540956457635" duration="9842000" />
+      <workItem from="1540956457635" duration="10194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49219000" />
+    <option name="totallyTimeSpent" value="49571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="23" width="1680" height="953" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20735383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
